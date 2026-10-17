@@ -37,3 +37,7 @@ DailyTasks/
   Support/                   Date helpers
   Views/                     ContentView, WeekStrip, DayTaskList, TaskRow, ProgressCard, TaskEditorView
 ```
+
+## Web preview
+
+`docs/` holds a browser version of the app for trying it on any phone without installing anything. It mirrors the Swift app's rules but is separate code, and its data stays in that browser. To host it, turn on GitHub Pages: **Settings → Pages → Deploy from a branch → `main` / `docs`**. It will be at `https://r339.github.io/AI/`. On iPhone, open that in Safari and use **Share → Add to Home Screen** to get a full-screen icon.
