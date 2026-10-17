@@ -25,11 +25,11 @@ With a free Apple ID, apps installed on a real phone expire after 7 days and nee
 
 - Repeating tasks are created when the app opens (today plus the next two days), or when you view a day. A routine's reminder only fires if its day has been created, so open the app now and then.
 - Editing one day of a repeating task changes only that day, not the whole series. "Stop repeating" ends the series and removes its unfinished future copies.
-- No app icon image yet: drop a 1024×1024 PNG into `Assets.xcassets/AppIcon`.
 
 ## Layout
 
 ```
+Design/AppIcon.svg           Source for the app icon (re-export to 1024×1024 PNG, no transparency)
 DailyTasks/
   DailyTasksApp.swift        App entry, notification delegate
   Models/                    TaskItem, Routine, Priority
