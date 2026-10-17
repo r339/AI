@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6F86FF"/>
+      <stop offset="1" stop-color="#4B3FD1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.2" r="0.8">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <!-- progress ring track -->
+  <circle cx="512" cy="512" r="300" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="72"/>
+  <!-- progress arc, ~78% -->
+  <circle cx="512" cy="512" r="300" fill="none" stroke="#FFFFFF" stroke-width="72" stroke-linecap="round"
+          stroke-dasharray="1470 1885" transform="rotate(-90 512 512)"/>
+  <!-- checkmark -->
+  <path d="M378 520 L470 612 L654 418" fill="none" stroke="#FFFFFF" stroke-width="84" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></body></html>
